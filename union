@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+union Data
+{
+    int age;
+    float marks;
+    char grade;
+};
+
+int main()
+{
+    Data d;
+
+    d.age = 19;
+    cout << d.age << endl;
+
+    d.marks = 85.5;
+    cout << d.marks << endl;
+
+    return 0;
+}
