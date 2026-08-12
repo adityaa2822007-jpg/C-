@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+typedef struct student
+{
+    string name;
+    int age;
+    int rollNo;
+    int marks;
+} Sn;
+
+int main()
+{
+    Sn addy;
+    cout<<"Enter age, rollNo and marks : "<<endl;
+    cin>>addy.age>>addy.rollNo>>addy.marks;
+    cout<<"Enter name : "<<endl;
+    cin>>addy.name;
+
+    cout<<"Name : "<<addy.name<<endl;
+    cout<<"Age : " <<addy.age<<endl;
+    cout<<"RollNo : "<<addy.rollNo<<endl;
+    cout<<"Marks : "<<addy.marks<<endl;
+
+}
